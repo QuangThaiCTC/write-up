@@ -1,9 +1,9 @@
 ## Challenge name: Retrieving other files with a path traversal
 
-**Challenge Description:**
+### Challenge Description:
 Path traversals are not limited to file uploads; when retrieving files, it can be the case that a path traversal is possible to retrieve other files from the system. In this assignment, try to find a file called path-traversal-secret.jpg
 
-**My Solution**
+### My Solution
 - Every time you select `Show random cat picture` you will see a returned packet like below.
 ![img](chall-attached/img-6.png)
 - The `id` parameter will be the name of the image we need to query.

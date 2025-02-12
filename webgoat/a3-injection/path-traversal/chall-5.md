@@ -1,11 +1,11 @@
 ## Challenge name: Zip Slip assignment
 
-**Challenge Description:**
+### Challenge Description:
 This time the developers only allow you to upload zip files. However, they made a programming mistake in uploading the zip file will extract it, but it will not replace your image. Can you find a way to overwrite your current image bypassing the programming mistake?
 
 ![img](chall-attached/img-13.png)
 
-**My Solution**
+### My Solution
 - Try creating a zip file containing an image like below and update your profile to see if anything happens.
 ![img](chall-attached/img-14.png)
 - The message shows that the zip file was successfully extracted but failed to copy the image. I don't understand what that means, but I'm guessing that my zip file might have been extracted as an image and it's located outside of the desired dev directory.
